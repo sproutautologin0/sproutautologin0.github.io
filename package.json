@@ -1,6 +1,7 @@
 {
   "name": "autosched-ui",
   "version": "0.1.0",
+  "homepage": "https://sproutautologin0.github.io",
   "private": true,
   "dependencies": {
     "@date-io/date-fns": "^2.14.0",
@@ -29,7 +30,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "env-cmd -f .env.production react-scripts build",
     "test": "react-scripts test",
